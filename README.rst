@@ -2,25 +2,11 @@
 JSON API and Django Rest Framework
 ==================================
 
-.. image:: https://travis-ci.org/django-json-api/django-rest-framework-json-api.svg?branch=develop
-   :target: https://travis-ci.org/django-json-api/django-rest-framework-json-api
-
-.. image:: https://readthedocs.org/projects/django-rest-framework-json-api/badge/?version=latest
-   :alt: Read the docs
-   :target: https://django-rest-framework-json-api.readthedocs.org/
-
-.. image:: https://badges.gitter.im/Join%20Chat.svg
-   :alt: Join the chat at https://gitter.im/django-json-api/django-rest-framework-json-api
-   :target: https://gitter.im/django-json-api/django-rest-framework-json-api
-
 --------
 Overview
 --------
 
 **JSON API support for Django REST Framework**
-
-* Documentation: https://django-rest-framework-json-api.readthedocs.org/
-* Format specification: http://jsonapi.org/format/
 
 
 By default, Django REST Framework will produce a response like::
@@ -192,4 +178,3 @@ override ``settings.REST_FRAMEWORK``
 
 This package provides much more including automatic inflection of JSON keys, extra top level data (using nested
 serializers), relationships, links, paginators, filters, and handy shortcuts.
-Read more at http://django-rest-framework-json-api.readthedocs.org/
